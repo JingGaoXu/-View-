@@ -1,0 +1,10 @@
+  HeaderWaveHelper headerWaveHelper = new HeaderWaveHelper(sd, R.color.colorAccent, R.color.colorPrimaryDark, images);
+
+        headerWaveHelper.start();
+
+        //水位高低变化 waterLevelRatio
+        headerWaveHelper.setDefaultWaterLevelRatio(16f, 18f);
+//波浪大小振幅 amplitudeRatio
+        headerWaveHelper.setDefaultAmplitudeRatio(80f, 55f);
+//floatView 旋转调整角
+        headerWaveHelper.setDefaultFloatViewRotation(0.5f);
