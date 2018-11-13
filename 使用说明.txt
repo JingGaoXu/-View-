@@ -1,10 +1,10 @@
   HeaderWaveHelper headerWaveHelper = new HeaderWaveHelper(sd, R.color.colorAccent, R.color.colorPrimaryDark, images);
-
+  //imagesæ˜¯æµ®åŠ¨çš„å¤´åƒ
         headerWaveHelper.start();
 
-        //Ë®Î»¸ßµÍ±ä»¯ waterLevelRatio
+        //æ°´ä½é«˜ä½å˜åŒ– waterLevelRatio
         headerWaveHelper.setDefaultWaterLevelRatio(16f, 18f);
-//²¨ÀË´óĞ¡Õñ·ù amplitudeRatio
+//æ³¢æµªå¤§å°æŒ¯å¹… amplitudeRatio
         headerWaveHelper.setDefaultAmplitudeRatio(80f, 55f);
-//floatView Ğı×ªµ÷Õû½Ç
+//floatView æ—‹è½¬è°ƒæ•´è§’
         headerWaveHelper.setDefaultFloatViewRotation(0.5f);
